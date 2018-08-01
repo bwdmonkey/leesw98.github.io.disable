@@ -22,12 +22,13 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: '/#project'}
-    - {title: Resume, description: Download resume, url: '/#resume'}
+    - {title: Blog, description: Visit blog, url: '#blog', class: 'blog-button'}
+    - {title: Project, description: My Projects, url: '#project', class: ''}
+    - {title: Resume, description: Download resume, url: '#resume', class: 'resume-btn'}
 
 # Pagination
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
 paginate_path: "page/:num/"
 
 # Comment
